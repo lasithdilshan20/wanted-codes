@@ -1,5 +1,5 @@
     function checkUOMAPI(language: string) {
-        const apiUrl = 'https://qa.api-au.telematics.com/v1/scorecard/users/summary';
+        const apiUrl = 'https://qa.api-au.xxxxxxx.com/v1/scorecard/users/summary';
 
         const payload = {
             companyId: 14825,
