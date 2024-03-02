@@ -56,7 +56,7 @@ async function resetPreferences(userId: number, language: string) {
             trackingBeta: false,
         }
     }
-    const url = "https://qa.api-au.telematics.com/v1/users/" + userId.toString() + "/config/settings"
+    const url = "https://qa.api-au.xxxxxx.com/v1/users/" + userId.toString() + "/config/settings"
     const data = JSON.stringify(initialData)
     const response = await fetch(url, {
         method: "PUT",
